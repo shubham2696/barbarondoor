@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Book">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+
+    </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:text="Appointment" />
+
+    <Button
+        android:id="@+id/selectDate"
+        android:layout_width="fill_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="Select Date"
+        android:gravity="center"
+        android:background="@color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="30dp"
+        />
+    <Button
+        android:id="@+id/time_slot"
+        android:layout_width="fill_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="Select Time Slot"
+        android:gravity="center"
+        android:background="@color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:hint="Address Fied1"
+        android:inputType="text"
+        android:background="@drawable/edit_text_style"
+        android:id="@+id/add1"
+        android:paddingLeft="20dp"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:hint="Address Fied2"
+        android:inputType="text"
+        android:background="@drawable/edit_text_style"
+        android:id="@+id/add2"
+        android:paddingLeft="20dp"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:hint="PinCode"
+        android:inputType="number"
+        android:background="@drawable/edit_text_style"
+        android:id="@+id/zip"
+        android:paddingLeft="20dp"
+        android:textSize="15sp" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:id="@+id/item"
+        android:text="Bye" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:layout_width="1dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/showDate"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:text="To Pay " />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:id="@+id/price"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:text="Hello" />
+
+
+</LinearLayout>
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="20dp"
+        >
+    <Button
+        android:id="@+id/get_appointment"
+        android:layout_width="fill_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="Get Appointment"
+        android:gravity="center"
+        android:background="@color/black"
+        android:textColor="@android:color/white"
+
+      />
+    </RelativeLayout>
+</LinearLayout>

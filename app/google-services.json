@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "223700013784",
+    "firebase_url": "https://barbar-ed74f.firebaseio.com",
+    "project_id": "barbar-ed74f",
+    "storage_bucket": "barbar-ed74f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223700013784:android:5d3279298e42fc37",
+        "android_client_info": {
+          "package_name": "com.example.shubham.barbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223700013784-jdacqe87t7spmb8cfpiacbia3jep3i7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubham.barbar",
+            "certificate_hash": "07d4e956e17ee724cbe69cb6e007319eaa5760e3"
+          }
+        },
+        {
+          "client_id": "223700013784-dtsrit80a7qda0bgifocuegv92vms1fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDe08cKcCvppFVuascz5lRPcc6HQP1xGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223700013784-dtsrit80a7qda0bgifocuegv92vms1fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

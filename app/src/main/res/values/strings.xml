@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Barber Ondoor</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_with_mobile_no">Please enter your mobile number </string>
+    <string name="proceed">PROCEED</string>
+    <string name="verify">VERIFY</string>
+    <string name="save">SAVE</string>
+    <string name="enter_your_mobile_no">Please Enter Your mobile number</string>
+    <string name="waiting_to_automatically_detect_an_sms_n_sent_to_your_mobile_number">Waiting to automatically detect an SMS   sent to your mobile number</string>
+    <string name="enter_4_digit_otp_below">Enter 6 Digit OTP Below</string>
+    <string name="resend_code">RESEND CODE</string>
+    <string name="don_t_received_the_code">Don\'t Received The Code</string>
+
+    <string name="loginfailed" />
+    <string name="loginsuccess" />
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="passworderror">Enter Some Password</string>
+    <string name="mobileerror">Enter Valid Mobile Number</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_home">Home</string>
+    <string name="title_appointment">Appointment</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_explore">Explore</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="appointment_fragment">Appointment Fragment</string>
+    <string name="explore_fragment">Explore Fragment</string>
+    <string name="exp">Explore with us</string>
+
+    <string name="coming">Coming Soon</string>
+
+
+</resources>

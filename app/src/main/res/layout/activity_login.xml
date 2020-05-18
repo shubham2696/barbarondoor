@@ -1,0 +1,88 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@android:color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+
+        >
+
+
+
+
+        <TextView
+            android:layout_marginTop="65dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/login_with_mobile_no"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+
+            android:padding="0dp"
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:background="@drawable/edit_text_style"
+            android:id="@+id/mobileno_login_edt"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <Button
+            android:id="@+id/proceed_login_btn"
+            android:layout_width="fill_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp"
+            android:text="@string/proceed"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="20dp"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
